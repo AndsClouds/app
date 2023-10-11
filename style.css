@@ -6,7 +6,7 @@ body {
 
 .top_banner {
   Height: 20vh;
-  background:purple;
+  background:rgba(27, 0, 27, 0.836);
   background-image: url("");
   background-size: fit;
   text-align: center;
@@ -14,19 +14,7 @@ body {
   position:relative;
     box-shadow:0px 2px 100px black;
 }
-.mat-banner {
-  position:fixed;
-  display:block;
-  z-index:1;
-  background:purple;
-  margin:0 auto;
-  padding:0 auto;
-  width:100%;
-  text-align:center;
-  color:white;
-  font-size:2.5em;
-  box-shadow:0px 2px 10px black;
-}
+
 .top_banner img {
   text-align: center;
   max-width: 20vh;
@@ -34,10 +22,10 @@ body {
 }
 
 .title_bar {
-  background: black;
+  background: rgba(0, 0, 0, 0.582);
   display: block;
   text-align: center;
-  height: 3vh;
+  height: 8vh;
   line-height: 3vh;
 }
 
@@ -140,6 +128,11 @@ body {
   height: 1vh;
 }
 
+.input_container{
+  background-color: rgb(101, 92, 109);
+  border-radius: 7px;
+}
+
 .card {
   background: #d6d6d6;
   padding: 0;
@@ -171,6 +164,13 @@ body {
   box-shadow:0px 2px 5px black;
 }
 
+.paragraph_content{
+  font-style: italic;
+}
+
+.date_style{
+  text-align: right;
+}
 .menu_wrap {
   overflow-y: scroll;
   max-height: 70vh;
