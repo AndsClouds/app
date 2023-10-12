@@ -6,7 +6,8 @@ body {
 
 .top_banner {
   Height: 20vh;
-  background:rgba(27, 0, 27, 0.836);
+  background: rgb(0,5,36);
+  background: linear-gradient(90deg, rgba(0,5,36,0.7595237924271271) 0%, rgba(56,53,59,0.8547618876652223) 57%, rgba(18,3,33,1) 100%); 
   background-image: url("");
   background-size: fit;
   text-align: center;
@@ -150,7 +151,7 @@ body {
 }
 
 .card_title {
-  background: purple;
+  background: #111111;
   color: White;
   display:block;
   position:relative;
@@ -171,6 +172,19 @@ body {
 .date_style{
   text-align: right;
 }
+
+.div_img{
+  display: inline;
+  height: 390px;
+  width: 325px;
+}
+
+.img_size{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .menu_wrap {
   overflow-y: scroll;
   max-height: 70vh;
